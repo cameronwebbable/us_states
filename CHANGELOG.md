@@ -1,3 +1,7 @@
+## [1.0.2] - 08/01/2019
+
+* Added basic examples.
+
 ## [1.0.1] - 08/01/2019
 
 * README adjustment.

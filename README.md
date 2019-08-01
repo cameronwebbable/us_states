@@ -8,7 +8,7 @@ Simple library to deal with state names and abbreviations.
 
 Add the following to `dependencies` section in your pubspec.yml:
 ```yaml
-  us_states: ^1.0.1
+  us_states: ^1.0.2
 ```
 
 ## Usage

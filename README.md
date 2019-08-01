@@ -6,11 +6,9 @@ Simple library to deal with state names and abbreviations.
 
 ## Installation
 
-Add the following to your pubspec.yml:
+Add the following to `dependencies` section in your pubspec.yml:
 ```yaml
-dependencies:
-    us_states: ^1.0.0
-
+  us_states: ^1.0.1
 ```
 
 ## Usage
@@ -21,42 +19,44 @@ dependencies:
 
 ### Get a state's name from an abbreviation
 
+Returns empty string if not found.
 ```dart
 USStates.getName("IA");
-// returns Iowa
+// returns "Iowa"
 ```
-
-Returns empty string if not found.
 
 ### Get a state's abbreviation from name
 
+Returns empty string if not found.
 ```dart
 USStates.getAbbreviation("Iowa");
-// returns IA
+// returns "IA"
 ```
-
-Returns empty string if not found.
 
 ### Get a list of all state names
 
 ```dart
 USStates.getAllNames();
+// returns ["Alaska", "Alabama", ...]
 ```
 
 ### Get a list of all state abbreviations
 
 ```dart
 USStates.getAllAbbreviations();
+// returns ["AK", "AL", ...]
 ```
 
 ### Get a map with state abbreviations as keys and names as values
 
 ```dart
 USStates.getAbbreviationMap();
+// returns {"AK": "Alaska", "AL": "Alabama", ...}
 ```
 
 ### Get a map with state names as keys and abbreviations as values
 
 ```dart
-USStates.getAbbreviationMap();
+USStates.getNameMap();
+// returns {"Alaska": "AK", "Alabama": "AL", ...}
 ```

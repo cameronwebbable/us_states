@@ -1,3 +1,7 @@
+## [1.0.3] - 08/01/2019
+
+* Dropping flutter-only requirement.
+
 ## [1.0.2] - 08/01/2019
 
 * Added basic examples.

@@ -7,9 +7,8 @@ class USStates {
   static String getAbbreviation(String stateName) {
     final name = stateName.trim().toLowerCase();
 
-    return states.keys.firstWhere(
-      (key) => states[key].toLowerCase() == name, orElse: () => ""
-    );
+    return states.keys.firstWhere((key) => states[key].toLowerCase() == name,
+        orElse: () => "");
   }
 
   /// Takes case-insensitive abbreviation of state and returns name.

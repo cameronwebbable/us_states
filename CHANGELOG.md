@@ -1,3 +1,7 @@
+## [1.1.0] - 06/01/2021
+
+* Moving to a new repository.
+
 ## [1.0.3] - 08/01/2019
 
 * Dropping flutter-only requirement.

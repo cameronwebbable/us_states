@@ -2,13 +2,13 @@
 
 Simple Dart library to deal with state names and abbreviations.
 
-[![CircleCI](https://circleci.com/gh/Snapraise/us_states.svg?style=svg)](https://circleci.com/gh/Snapraise/us_states)
+[![CircleCI](https://circleci.com/gh/cameronwebbable/us_states.svg?style=svg)](https://circleci.com/gh/cameronwebbable/us_states)
 
 ## Installation
 
 Add the following to `dependencies` section in your pubspec.yml:
 ```yaml
-  us_states: ^1.0.3
+  us_states: ^1.1.0
 ```
 
 ## Usage

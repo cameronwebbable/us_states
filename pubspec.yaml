@@ -1,11 +1,10 @@
 name: us_states
 description: Simple Dart library to deal with state names and abbreviations.
-version: 1.0.3
-author: Cameron Webb <cameronw@snap-raise.com>
-homepage: https://github.com/snapraise/us_states
+version: 1.1.0
+homepage: https://github.com/cameronwebbable/us_states
 
 environment:
-  sdk: ">=2.1.0 <3.0.0"
+  sdk: '>=2.12.0 <3.0.0'
 
 dev_dependencies:
   flutter_test:

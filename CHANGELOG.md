@@ -1,6 +1,6 @@
 ## [1.1.0] - 06/01/2021
 
-* Moving to a new repository.
+* Moving to a new repository + Nullability support.
 
 ## [1.0.3] - 08/01/2019
 

@@ -18,7 +18,7 @@ class USStates {
     final abbrev = stateAbbreviation.toUpperCase();
 
     if (states.containsKey(abbrev)) {
-      return states[abbrev];
+      return states[abbrev]!;
     }
 
     return "";

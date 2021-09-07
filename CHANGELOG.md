@@ -1,3 +1,7 @@
+## [1.1.5] - 09/07/2021
+
+* Fix Null Safety bug (Fix by mclark4386).
+
 ## [1.1.0] - 06/01/2021
 
 * Moving to a new repository + Nullability support.

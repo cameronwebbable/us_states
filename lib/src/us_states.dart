@@ -4,7 +4,7 @@ import 'package:collection/collection.dart';
 class USStates {
   /// Takes case-insensitive name of state and returns abbreviation.
   ///
-  /// If abbreviation is not found, empty string is returned.
+  /// If abbreviation is not found, null is returned.
   static String? getAbbreviation(String stateName) {
     final name = stateName.trim().toLowerCase();
 

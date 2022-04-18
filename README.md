@@ -8,7 +8,7 @@ Simple Dart library to deal with state names and abbreviations.
 
 Add the following to `dependencies` section in your pubspec.yml:
 ```yaml
-  us_states: ^1.1.5
+  us_states: ^1.2.0
 ```
 
 ## Usage
@@ -19,7 +19,7 @@ Add the following to `dependencies` section in your pubspec.yml:
 
 ### Get a state's name from an abbreviation
 
-Returns empty string if not found.
+Returns null if not found.
 ```dart
 USStates.getName("IA");
 // returns "Iowa"
@@ -27,7 +27,7 @@ USStates.getName("IA");
 
 ### Get a state's abbreviation from name
 
-Returns empty string if not found.
+Returns null if not found.
 ```dart
 USStates.getAbbreviation("Iowa");
 // returns "IA"

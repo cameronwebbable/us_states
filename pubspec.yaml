@@ -6,6 +6,9 @@ homepage: https://github.com/cameronwebbable/us_states
 environment:
   sdk: '>=2.12.0 <3.0.0'
 
+dependencies:
+  collection: ^1.15.0
+
 dev_dependencies:
   flutter_test:
     sdk: flutter

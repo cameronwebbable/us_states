@@ -1,27 +1,24 @@
 import 'package:us_states/src/states.dart';
+import 'package:collection/collection.dart';
 
 class USStates {
   /// Takes case-insensitive name of state and returns abbreviation.
   ///
-  /// If abbreviation is not found, empty string is returned.
-  static String getAbbreviation(String stateName) {
+  /// If abbreviation is not found, null is returned.
+  static String? getAbbreviation(String stateName) {
     final name = stateName.trim().toLowerCase();
 
-    return states.keys.firstWhere((key) => states[key]!.toLowerCase() == name,
-        orElse: () => "");
+    return states.keys
+        .firstWhereOrNull((key) => states[key]?.toLowerCase() == name);
   }
 
   /// Takes case-insensitive abbreviation of state and returns name.
   ///
-  /// If name is not found, empty string is returned.
+  /// If name is not found, null is returned.
   static String? getName(String stateAbbreviation) {
     final abbrev = stateAbbreviation.toUpperCase();
 
-    if (states.containsKey(abbrev)) {
-      return states[abbrev]!;
-    }
-
-    return "";
+    return states[abbrev];
   }
 
   /// Returns list of all abbreviations.

@@ -1,3 +1,7 @@
+## [1.2.0] - 09/07/2021
+
+* getAbbreviation and getName will now return null instead of empty string when name or abbreviation is not found.
+
 ## [1.1.5] - 09/07/2021
 
 * Fix Null Safety bug (Fix by mclark4386).

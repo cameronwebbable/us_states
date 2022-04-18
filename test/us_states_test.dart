@@ -4,7 +4,7 @@ import 'package:us_states/us_states.dart';
 
 void main() {
   group("getAbbreviation", () {
-    test("correctly returns an abbreviation", (){
+    test("correctly returns an abbreviation", () {
       /// Iowhuuuuuuuuuuut!
       final abbr1 = USStates.getAbbreviation("Iowa");
       final abbr2 = USStates.getAbbreviation("IowA");
@@ -17,21 +17,21 @@ void main() {
       expect(abbr4, "IA");
     });
 
-    test("correctly returns an empty string", (){
+    test("correctly returns a null string", () {
       /// Oh, Nebraska... you spell good and stuff.
       final abbr1 = USStates.getAbbreviation("Derbraska");
       final abbr2 = USStates.getAbbreviation("Neborinska");
       final abbr3 = USStates.getAbbreviation("NeblahsKA");
       final abbr4 = USStates.getAbbreviation("Nebras");
 
-      expect(abbr1, "");
-      expect(abbr2, "");
-      expect(abbr3, "");
-      expect(abbr4, "");
+      expect(abbr1, null);
+      expect(abbr2, null);
+      expect(abbr3, null);
+      expect(abbr4, null);
     });
   });
 
-  group("getName", (){
+  group("getName", () {
     test("correctly returns state name", () {
       /// Apples and Cherries and Stuff.
       final name1 = USStates.getName("WA");
@@ -45,18 +45,17 @@ void main() {
       expect(name4, "Washington");
     });
 
-    test("correctly returns empty string", () {
+    test("correctly returns null string", () {
       /// Cuz Florida.
       final name1 = USStates.getName("F1");
       final name2 = USStates.getName("f L");
       final name3 = USStates.getName("Rida");
       final name4 = USStates.getName("111-111-1234");
 
-
-      expect(name1, "");
-      expect(name2, "");
-      expect(name3, "");
-      expect(name4, "");
+      expect(name1, null);
+      expect(name2, null);
+      expect(name3, null);
+      expect(name4, null);
     });
   });
 

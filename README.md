@@ -8,7 +8,7 @@ Simple Dart library to deal with state names and abbreviations.
 
 Add the following to `dependencies` section in your pubspec.yml:
 ```yaml
-  us_states: ^1.2.0
+  us_states: ^1.3.0
 ```
 
 ## Usage

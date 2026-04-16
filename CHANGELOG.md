@@ -1,3 +1,10 @@
+## [1.3.0] - 04/15/2026
+
+* Dart 3 support (SDK constraint >=3.0.0 <4.0.0).
+* Switched from flutter_test to package:test (pure Dart library).
+* Added recommended lints via analysis_options.yaml.
+* Made states map const; getAbbreviationMap() now returns an unmodifiable view.
+
 ## [1.2.0] - 09/07/2021
 
 * getAbbreviation and getName will now return null instead of empty string when name or abbreviation is not found.

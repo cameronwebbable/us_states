@@ -4,11 +4,11 @@ version: 1.3.0
 repository: https://github.com/cameronwebbable/us_states
 
 environment:
-  sdk: '>=2.17.0 <4.0.0'
+  sdk: '>=3.0.0 <4.0.0'
 
 dependencies:
   collection: ^1.15.0
 
 dev_dependencies:
   test: ^1.21.0
-  lints: ^2.0.0
+  lints: ^4.0.0

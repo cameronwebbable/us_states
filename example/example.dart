@@ -1,6 +1,6 @@
 import 'package:us_states/us_states.dart';
 
-main() {
+void main() {
   print(USStates.getName("IA"));
   print(USStates.getAbbreviation("Iowa"));
 }

@@ -1,3 +1,7 @@
+## [1.3.1] - 04/15/2026
+
+* Fix README installation version.
+
 ## [1.3.0] - 04/15/2026
 
 * Dart 3 support (SDK constraint >=3.0.0 <4.0.0).

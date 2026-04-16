@@ -1,4 +1,4 @@
-final states = {
+const states = {
   "AK": "Alaska",
   "AL": "Alabama",
   "AR": "Arkansas",

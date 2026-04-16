@@ -2,8 +2,9 @@ version: 2
 jobs:
   build:
     docker:
-      - image: cirrusci/flutter
+      - image: dart:stable
     steps:
       - checkout
-      - run: flutter doctor
-      - run: flutter test 
+      - run: dart pub get
+      - run: dart analyze
+      - run: dart test

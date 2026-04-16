@@ -31,14 +31,14 @@ class USStates {
     return states.values.toList();
   }
 
-  /// Returns map of Abbreviations as Keys and Names as Values.
+  /// Returns an unmodifiable map of Abbreviations as Keys and Names as Values.
   static Map<String, String> getAbbreviationMap() {
-    return states;
+    return UnmodifiableMapView(states);
   }
 
   /// Returns map of Names as Keys and Abbreviations as Values.
   static Map<String, String> getNameMap() {
-    var nameMap = Map<String, String>();
+    var nameMap = <String, String>{};
 
     states.forEach((key, value) {
       nameMap[value] = key;
